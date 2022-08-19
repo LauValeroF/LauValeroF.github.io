@@ -1,0 +1,56 @@
+/*header*/
+header.headerindex {
+    background-image: url(../img/pexels-bruno-thethe-1910225.jpg);
+    background-position: cover;
+    height: 150px;
+    position: center;
+    text-align: center;
+}
+
+header.sobreMiHeader {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: bold;
+    text-decoration: none;
+    color: indigo;
+}
+
+/*Tituo*/
+
+h1.titulo1 {
+    
+    background-color: midnightblue;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: #ffcce5;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: bold;
+    text-decoration: none;
+    color: indigo;
+}
+
+/*Datos personales*/
+
+h2 {
+    background-color: #C4C4C4; 
+    color: #005677;
+    font-family: 'Times New Roman';
+    position: ceter;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #005677;
+    color: #ffffff;
+    font-family: 'Times New Roman';
+    font-size: 23px;
+    position: center;
+    text-align: center;
+}
