@@ -1,56 +1,157 @@
-/*header*/
-header.headerindex {
-    background-image: url(../img/pexels-bruno-thethe-1910225.jpg);
-    background-position: cover;
-    height: 150px;
-    position: center;
+* {
+    box-sizing: border-box;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    width: 1024px;
+    height: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:28px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin:0px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00669F;
+    color: black;
+    position: fixed;
+    height: 101px;
+    padding-top: 28px;
+    padding-bottom:26px;
+    padding-left: 28px;
+    top:38px;
+    left:0px;
+    width:1024px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    margin:0px;
+    font-weight: 400;
+}
+
+.contenedor{
+    position: relative;
+    top:292px;
+    margin: 0px;
+    padding: 0px;
+}
+
+span{
+    position:relative;
+    display: inline-block;
+    width:300px;
+    height: 529px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.batman1{
+    position: absolute;
+    left:32px;
+}
+
+.harley{
+    position: absolute;
+    top:0px;
+    left: 362px;
+}
+
+.batman2{
+    position:absolute;
+    left: 692px;
+}
+
+.corazon{
+    position: absolute;
+    left:21px;
+    top:15.87px;
+    Width:30px;
+    Height:26.25px;
+}
+
+.fotoperfil{
+    border-radius: 50%;
+    position: absolute;
+    left:90px;
+    top:128px;
+}
+
+h2.tituloB{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 85px;
+    font-size: 30px;
     text-align: center;
+    top: 267px;
+    line-height: 35px;
+    width: 122px;
+    height: 35px;
+    margin: 0px;
+    font-weight: 400;
 }
 
-header.sobreMiHeader {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:x-large;
-    font-weight: bold;
-    text-decoration: none;
-    color: indigo;
+h2.tituloH{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 65px;
+    font-size: 30px;
+    text-align: center;
+    top: 267px;
+    line-height: 35px;
+    width: 171px;
+    height: 35px;
+    margin: 0px;
+    font-weight: 400;
 }
 
-/*Tituo*/
+span p{
+    position:absolute;
+    top: 312px;
+    margin: 0px;
+    left: 16px;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    width: 267px;
+    height: 113px;
+    font-weight: 400;
+}
 
-h1.titulo1 {
-    
-    background-color: midnightblue;
+a{
+    position: absolute;
+    left: 85px;
+    background-color: #00669F;
     color: white;
-    text-transform: uppercase;
-}
-
-nav {
-    background-color: #ffcce5;
-}
-
-a {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:x-large;
-    font-weight: bold;
     text-decoration: none;
-    color: indigo;
+    top: 461px;
+    width: 128.78px;
+    height: 48.52px;
+    padding: 15px 35.78px 15.42px 37px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px
 }
 
-/*Datos personales*/
-
-h2 {
-    background-color: #C4C4C4; 
-    color: #005677;
-    font-family: 'Times New Roman';
-    position: ceter;
-    text-transform: uppercase;
-}
-
-footer {
-    background-color: #005677;
-    color: #ffffff;
-    font-family: 'Times New Roman';
-    font-size: 23px;
-    position: center;
-    text-align: center;
+footer p{
+    position: absolute;
+    top: 972px;
+    background-color: #00669F;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    padding-top: 16px;
+    padding-bottom:16px;
+    padding-left: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
 }
